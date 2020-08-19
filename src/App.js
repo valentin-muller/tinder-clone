@@ -9,23 +9,18 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-
       <Router>
-      <Header />
         <Switch>
+          <Route path="/chats">
+            <Header backButton="/" />
+            <h1>I am chatpage</h1>
+          </Route>
 
-
-         <Route path="/chats">
-           <h1>I am chatpage</h1>
-         </Route>
-
-
-         <Route path="/">
-           <TinderCards />
-           <SwipeButtons />
-         </Route>
-
-
+          <Route path="/">
+            <Header />
+            <TinderCards />
+            <SwipeButtons />
+          </Route>
         </Switch>
       </Router>
     </div>
