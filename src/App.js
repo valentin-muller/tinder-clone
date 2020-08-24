@@ -16,7 +16,6 @@ function App() {
 
           <Route path="/chats/:person">
             <Header backButton="/chats" />
-            <Chats />
             <ChatScreen />
           </Route>
 
