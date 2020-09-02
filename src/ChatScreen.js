@@ -17,7 +17,7 @@ const[ input, setInput] = useState('')
     {
       name: "Alex",
       image:
-        "https://cdn.ebaumsworld.com/mediaFiles/picture/416301/83687757.jpg",
+        "https://cdn.ebaumsworld.com/mediaFiles/picture/2213344/85502390.jpg",
       message: "Are you still up for tonight?",
     },
   ]);
