@@ -5,6 +5,3 @@
 - React.js  🚙
 - Firebase Database🔥
 - Firebase Hosting 🚒
-
-
-Shout out to `@cleverqazi` for the amazing codealong!
